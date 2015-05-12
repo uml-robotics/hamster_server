@@ -43,7 +43,7 @@
 
 #include <geometry_msgs/Twist.h>
 #include <mrm_control_panel/VelocityWidget.h>
-#include <mrm_control_panel/TeleoperatorInstance.h>
+#include <ui_TeleoperatorInstance.h>
 #include <mrm_control_panel/KeyboardTeleop.h>
 
 using namespace std;
