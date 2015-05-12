@@ -89,7 +89,7 @@ catkin_python_setup()
 
 QT4_ADD_RESOURCES(QT_RESOURCES_CPP ${QT_RESOURCES})
 QT4_WRAP_CPP(mrm_control_panel_MOCS ${mrm_control_panel_HDRS})
-QT4_WRAP_UI2(mrm_control_panel_UIS_H ${mrm_control_panel_UIS})
+QT4_WRAP_UI(mrm_control_panel_UIS_H ${mrm_control_panel_UIS})
 
 include_directories(${mrm_control_panel_INCLUDE_DIRECTORIES} 
     ${catkin_INCLUDE_DIRS}

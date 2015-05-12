@@ -28,7 +28,7 @@
 #include <sensor_msgs/Image.h>
 #include <diagnostic_msgs/DiagnosticArray.h>
 #include <std_msgs/Float32.h>
-#include <mrm_control_panel/mrm_robot_widget.h>
+#include <ui_mrm_robot_widget.h>
 
 #include <iostream>
 #include <boost/asio.hpp>

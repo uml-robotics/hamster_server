@@ -39,3 +39,5 @@ include/mrm_control_panel/mrm_system_message_widget.h
 qrc_*
 
 include/mrm_control_panel/moc_*
+
+ui_*
