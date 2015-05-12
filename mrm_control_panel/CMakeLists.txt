@@ -23,7 +23,8 @@ find_package(catkin REQUIRED COMPONENTS
     rqt_gui 
     rqt_gui_cpp 
     tf 
-    image_transport)
+    image_transport
+    ackermann_msgs)
 find_package(Qt4 COMPONENTS QtCore QtGui REQUIRED)
 find_package(Boost COMPONENTS system thread REQUIRED)
 find_package(cv_bridge REQUIRED)
