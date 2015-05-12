@@ -19,7 +19,7 @@
 #include <geometry_msgs/Twist.h>
 #include <sensor_msgs/Image.h>
 
-#include <mrm_control_panel/mrm_video_widget.h>
+#include <ui_mrm_video_widget.h>
 
 #define ROBOT_CRITICAL_BATTERY_VALUE 10
 #define ROBOT_CRITICAL_WIFI_VALUE 5

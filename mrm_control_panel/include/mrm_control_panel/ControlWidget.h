@@ -12,7 +12,7 @@
 #include <QEvent>
 #include <QKeyEvent>
 #include <mrm_control_panel/MapWidget.h>
-#include <mrm_control_panel/mrm_control_widget.h>
+#include <ui_mrm_control_widget.h>
 #include <mrm_control_panel/RobotWidget.h>
 #include <mrm_control_panel/VideoWidget.h>
 #include <mrm_control_panel/TeleoperatorWidget.h>

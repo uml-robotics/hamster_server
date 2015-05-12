@@ -22,7 +22,7 @@
 #include <QLayoutItem>
 
 #include <mrm_control_panel/TeleoperatorInstanceWidget.h>
-#include <mrm_control_panel/mrm_operator_widget.h>
+#include <ui_mrm_operator_widget.h>
 #include <mrm_control_panel/VelocityWidget.h>
 #include <mrm_control_panel/KeyboardTeleop.h>
 

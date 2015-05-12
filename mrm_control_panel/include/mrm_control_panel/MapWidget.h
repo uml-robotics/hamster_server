@@ -28,7 +28,7 @@
 
 #include <sensor_msgs/LaserScan.h>
 
-#include <mrm_control_panel/mrm_map_widget.h>
+#include <ui_mrm_map_widget.h>
 
 #include <mrm_control_panel/MapGraphicsItem.h>
 #include <mrm_control_panel/RobotGraphicsItem.h>
