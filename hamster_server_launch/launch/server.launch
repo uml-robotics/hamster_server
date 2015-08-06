@@ -1,6 +1,7 @@
 <launch>
     
-    <param name="/mrm/robots_count" value="2" />
+    <arg name="robots_count" default="2" />
+    <param name="/mrm/robots_count" value="$(arg robots_count)" />
 
     <node name="map_server" pkg="map_server" type="map_server" args="$(find hamster_server_launch)/maps/cogniteam.yaml" /> 
 
