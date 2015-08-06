@@ -7,6 +7,6 @@
 
     <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui" args="--perspective-file $(find hamster_server_launch)/rqt/hamster.perspective" /> 
 
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find hamster_server_launch)/rviz/hamsters.rviz"/> 
+    <node name="hamster_rviz_generator" pkg="hamster_server_launch" type="hamster_server_rviz_generator.sh" args="$(arg robots_count) -d $(find hamster_server_launch)/rviz/hamsters.rviz"/> 
 
 </launch>
